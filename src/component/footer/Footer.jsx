@@ -8,8 +8,8 @@ const Footer = () => {
   console.log("hello");
 
   return (
-    <div>
-        <div className={styles.container} >2023 Project. All rights Reserved</div>
+    <div className={styles.container}>
+        <div className={styles} >2023 Project. All rights Reserved</div>
         <div></div>
     </div>
   )
